@@ -4,8 +4,8 @@
 
 <ul>
   {{#each burgers}}
-    {{#unless devour}}
-      {{> burgers/burger-block burger=true}}
+    {{#unless this.devour}}
+      {{> burgers/burger-block devour=true}}
     {{/unless}}
   {{/each}}
 </ul>
@@ -30,7 +30,7 @@
 
   <div class="form-group">
    
-    <input type="radio" name="devour" value="0" checked> Devour it!<br>
+    <input type="radio" name="devour" value="0" checked> Enter a burger you want to eatand click "Add" button!<br>
     
   </div>
 
