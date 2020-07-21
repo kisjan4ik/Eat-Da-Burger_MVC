@@ -1,11 +1,16 @@
-<li>
-	{{this.name}}
+<div>
+	<li>
+		{{this.name}}
 
-		{{#if this.devour}}<button type="button" class="change-devour btn btn-success" data-id="{{this.id}}" data-newdevour="{{this.devour}}">
-	DEVOUR IT!</button>
-		{{else}}<button type="button" class="delete-burger btn btn-danger" data-id="{{this.id}}">DELETE!</button>
+		{{#if this.devour}}<button type="button" class="change-devour btn btn-success" data-id="{{this.id}}"
+			data-newdevour="{{this.devour}}">
+			DEVOUR IT!</button>
+		{{else}}<button type="button" class="delete-burger btn btn-danger" data-id="{{this.id}}">YUM!</button>
+		<button type="button" class="change-devour btn btn-outline-success more" data-id="{{this.id}}"
+			data-newdevour="{{this.devour}}">ONE MORE </button>
 		{{/if}}
-	
 
-	
-</li>
+
+
+	</li>
+</div>
