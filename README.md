@@ -5,7 +5,8 @@
 
   ## Description
 
-  This app helps to generate employee log with Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person..
+  This is an application that can be used by a restaurant. It allows a visitor to name any  burger they would like to eat and then gives options to eat and order more.
+  
 
   
   ## Table of Contents:
@@ -20,11 +21,11 @@
   ## Installation
 
   To correctly use this project you needed to install:
-  npm i inquirer
+  npm i epress, npm i express-handlebars and npm i mysql.
 
   ## Usage
 
-   The application prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns.
+   When a user ordered the itam is shown on the screen in one column with an option to devour it. If the client decides to devour it, the burger is moved to the devoured column with 2 options - Yum - means, the client is done and the burger removes from the column, and - one more - means the client wants one more like this.
 
   ## License
   
@@ -36,22 +37,30 @@
 
   ## Tests
 
- The tests are provided in test folder and the screenshot of running the tests is presented below
+ To be added
 
   ## Screenshots
 
-### Input information about team members:
-![Screenshot_1](https://user-images.githubusercontent.com/63433561/87046932-cff7d600-c1c7-11ea-9cf0-9ba0f4cc50c3.PNG)
+### Input information:
+![Screenshoot_1](https://user-images.githubusercontent.com/63433561/88120010-02261200-cb90-11ea-8c0c-999bdcb9e8b5.PNG)
 
-### Successfully generated html document:
-![Screenshot_2](https://user-images.githubusercontent.com/63433561/87046933-d0906c80-c1c7-11ea-9f77-92b38880957d.PNG)
+### Burgers to devour
+![Screenshoot_2](https://user-images.githubusercontent.com/63433561/88120012-03573f00-cb90-11ea-9097-f975ef324096.PNG)
 
-### Browser view:
-![Screenshot_3](https://user-images.githubusercontent.com/63433561/87104058-cb153f80-c224-11ea-8d74-f0ec2af9f61e.PNG)
+### All options
+![Screenshoot_3](https://user-images.githubusercontent.com/63433561/88120015-03efd580-cb90-11ea-84bd-36fdd597dbc0.PNG)
 
-### Tests running:
-![Screenshot_4](https://user-images.githubusercontent.com/63433561/87046937-d1290300-c1c7-11ea-9f9c-77aeab84795b.PNG)
 
+  ## Links to the Application:
+
+  ### GitHub Repo
+   https://github.com/kisjan4ik/Eat-Da-Burger_MVC
+
+  ### Heroku 
+   https://shrouded-scrubland-07214.herokuapp.com/
+
+  ### Updated Portfolio
+   https://kisjan4ik.github.io/Portfolio/
 
   © Copyright 2020
   
