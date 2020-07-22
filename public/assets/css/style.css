@@ -1,8 +1,11 @@
 body {
-  background-repeat: no-repeat;
+  background: url(../css/images/intro-1592511379.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-image: url(../css/images/intro-1592511379.jpg);
 }
+
 
 h1 {
   text-align: center;
